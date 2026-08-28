@@ -7,14 +7,14 @@ Auto-updated daily ranking of trending GitHub repos, via GitHub Actions.
 <!-- trending:start -->
 | Repo | Stars | Language | Description |
 |------|------:|----------|-------------|
-| [HEJustinSun/my-girlfriend-jingtian-latex](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex) | 3,654 | TeX |  |
-| [b-nnett/grok-bot-0.18-reconstructed](https://github.com/b-nnett/grok-bot-0.18-reconstructed) | 3,402 | TypeScript | Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS |
-| [tobi/walgit](https://github.com/tobi/walgit) | 2,288 | Rust |  |
-| [duty1g/x64dbg-mcp-server](https://github.com/duty1g/x64dbg-mcp-server) | 1,659 | Zig | x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugg |
-| [sapientinc/PRAXIST](https://github.com/sapientinc/PRAXIST) | 1,445 | Python | Autonomous research system for measurable, computer-executable research. |
-| [ApodexAI/FrontierAgent](https://github.com/ApodexAI/FrontierAgent) | 1,214 | Python | 🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct an |
-| [nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft) | 1,152 | JavaScript | Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design  |
-| [bryllim/workout-guide](https://github.com/bryllim/workout-guide) | 966 | Astro | 302 open exercise illustrations and a framework-neutral npm package by Bryl Lim |
-| [wide-trace/open-higgsfield](https://github.com/wide-trace/open-higgsfield) | 954 | TypeScript | A studio for image and video generation — one prompt bar, each model’s own settings, and every finis |
-| [N4darae/anti-mage](https://github.com/N4darae/anti-mage) | 835 | Go | Browser testing utilizes various methods and algorithms, and performs calculations based on multiple |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 201,913 | TypeScript | DeepSeek Harness: Everything is a Plugin. |
+| [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | 21,521 | TypeScript | 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。 |
+| [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | 19,041 | Rust | Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in R |
+| [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | 19,013 | Python | Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/me |
+| [yc-software/qm](https://github.com/yc-software/qm) | 14,307 | TypeScript | Multiplayer agent harness for work. |
+| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 13,384 | Python | A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表 |
+| [trycompai/crm](https://github.com/trycompai/crm) | 9,055 | TypeScript | Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM. |
+| [pathwaycom/arc-task-gen](https://github.com/pathwaycom/arc-task-gen) | 8,528 | Python | Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set. |
+| [MiniMax-AI/MiniMax-H3](https://github.com/MiniMax-AI/MiniMax-H3) | 7,324 | Python |  |
+| [yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) | 6,928 | JavaScript | dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the tas |
 <!-- trending:end -->
