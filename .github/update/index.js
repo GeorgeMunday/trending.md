@@ -12,7 +12,7 @@ function formatDate(d) {
 
 async function fetchTrendingRepos() {
   const since = new Date();
-  since.setDate(since.getDate() - 7); // repos created in the last 7 days
+  since.setDate(since.getDate() - 31);
   const query = `created:>${formatDate(since)}`;
   const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=10`;
 
