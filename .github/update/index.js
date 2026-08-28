@@ -59,14 +59,6 @@ async function main() {
     content += `\n\n## Trending Repositories\n\n${block}\n`;
   }
 
-  // Update run counter
-  const counterMarker = /(<!-- update-count -->)(\d+)/;
-  if (counterMarker.test(content)) {
-    content = content.replace(counterMarker, (_, tag, num) => `${tag}${parseInt(num, 10) + 1}`);
-  } else {
-    content = `<!-- update-count -->1\n\n${content}`;
-  }
-
   fs.writeFileSync(readmePath, content);
   console.log(`README updated with ${repos.length} trending repos.`);
 }
