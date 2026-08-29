@@ -1,116 +1,69 @@
-const fs = require("fs");
-const path = require("path");
+const fs = require('fs');
+const path = require('path');
 
-const README_PATH = path.join(__dirname, "..", "README.md");
-const OSSINSIGHT_API = "https://api.ossinsight.io/v1";
+const readmePath = path.join(__dirname, '..', '..', 'README.md');
 
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-const githubHeaders = {
-  Accept: "application/vnd.github+json",
-  ...(GITHUB_TOKEN ? { Authorization: `Bearer ${GITHUB_TOKEN}` } : {}),
-};
+const START_MARKER = '<!-- trending:start -->';
+const END_MARKER = '<!-- trending:end -->';
 
-async function fetchTrending(limit = 15, period = "past_24_hours") {
-  const url = new URL(`${OSSINSIGHT_API}/trends/repos/`);
-  url.searchParams.set("period", period);
-  url.searchParams.set("language", "All");
-
-  const res = await fetch(url, { headers: { Accept: "application/json" } });
-  if (!res.ok) throw new Error(`OSS Insight API error: ${res.status}`);
-  const json = await res.json();
-  const rows = (json?.data?.rows || []).slice(0, limit);
-
-  return rows
-    .filter((row) => row.repo_name)
-    .map((row) => ({
-      repo: row.repo_name,
-      url: `https://github.com/${row.repo_name}`,
-      description: (row.description || "").trim(),
-      starsToday: row.stars ?? "—",
-    }));
+function formatDate(d) {
+  return d.toISOString().split('T')[0];
 }
 
-async function fetchTopStarred(limit = 15) {
-  const url = new URL("https://api.github.com/search/repositories");
-  url.searchParams.set("q", "stars:>1");
-  url.searchParams.set("sort", "stars");
-  url.searchParams.set("order", "desc");
-  url.searchParams.set("per_page", String(limit));
+async function fetchTrendingRepos() {
+  const since = new Date();
+  since.setDate(since.getDate() - 31);
+  const query = `created:>${formatDate(since)}`;
+  const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=10`;
 
-  const res = await fetch(url, { headers: githubHeaders });
-  if (!res.ok) throw new Error(`GitHub Search API error: ${res.status}`);
-  const json = await res.json();
-
-  return (json.items || []).map((item) => ({
-    repo: item.full_name,
-    url: item.html_url,
-    description: (item.description || "").trim(),
-    stars: item.stargazers_count,
-  }));
-}
-
-function renderTrendingTable(rows) {
-  const lines = ["| # | Repository | Description | Stars Today |", "|---|---|---|---|"];
-  rows.forEach((r, i) => {
-    const desc = r.description.replace(/\|/g, "\\|").slice(0, 80);
-    lines.push(`| ${i + 1} | [${r.repo}](${r.url}) | ${desc} | ${r.starsToday} |`);
+  const res = await fetch(url, {
+    headers: {
+      'Accept': 'application/vnd.github+json',
+      'User-Agent': 'Trending.md-bot',
+      ...(process.env.GITHUB_TOKEN ? { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {})
+    }
   });
-  return lines.join("\n");
+
+  if (!res.ok) {
+    throw new Error(`GitHub API request failed: ${res.status} ${res.statusText}`);
+  }
+
+  const data = await res.json();
+  return data.items || [];
 }
 
-function renderStarredTable(rows) {
-  const lines = ["| # | Repository | Description | ⭐ Stars |", "|---|---|---|---|"];
-  rows.forEach((r, i) => {
-    const desc = r.description.replace(/\|/g, "\\|").slice(0, 80);
-    lines.push(`| ${i + 1} | [${r.repo}](${r.url}) | ${desc} | ${r.stars.toLocaleString()} |`);
+function buildTable(repos) {
+  const header = `| Repo | Stars | Language | Description |\n|------|------:|----------|-------------|`;
+  const rows = repos.map(repo => {
+    const name = `[${repo.full_name}](${repo.html_url})`;
+    const stars = repo.stargazers_count.toLocaleString();
+    const lang = repo.language || '—';
+    const desc = (repo.description || '').replace(/\|/g, '\\|').slice(0, 100);
+    return `| ${name} | ${stars} | ${lang} | ${desc} |`;
   });
-  return lines.join("\n");
-}
-
-function replaceBetweenMarkers(content, startMarker, endMarker, newText) {
-  const pattern = new RegExp(
-    `${escapeRegExp(startMarker)}[\\s\\S]*?${escapeRegExp(endMarker)}`
-  );
-  return content.replace(pattern, `${startMarker}\n${newText}\n${endMarker}`);
-}
-
-function escapeRegExp(str) {
-  return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return [header, ...rows].join('\n');
 }
 
 async function main() {
-  let content = fs.readFileSync(README_PATH, "utf-8");
+  let content = fs.readFileSync(readmePath, 'utf8');
 
-  const [trending, topStarred] = await Promise.all([
-    fetchTrending(),
-    fetchTopStarred(),
-  ]);
+  // Update trending table
+  const repos = await fetchTrendingRepos();
+  const table = buildTable(repos);
+  const block = `${START_MARKER}\n${table}\n${END_MARKER}`;
+  const blockRegex = new RegExp(`${START_MARKER}[\\s\\S]*?${END_MARKER}`);
 
-  content = replaceBetweenMarkers(
-    content,
-    "<!-- TRENDING:START -->",
-    "<!-- TRENDING:END -->",
-    renderTrendingTable(trending)
-  );
-  content = replaceBetweenMarkers(
-    content,
-    "<!-- STARRED:START -->",
-    "<!-- STARRED:END -->",
-    renderStarredTable(topStarred)
-  );
+  if (blockRegex.test(content)) {
+    content = content.replace(blockRegex, block);
+  } else {
+    content += `\n\n## Trending Repositories\n\n${block}\n`;
+  }
 
-  const updated = new Date().toISOString().slice(0, 16).replace("T", " ") + " UTC";
-  content = replaceBetweenMarkers(
-    content,
-    "<!-- UPDATED:START -->",
-    "<!-- UPDATED:END -->",
-    `Last updated: **${updated}**`
-  );
-
-  fs.writeFileSync(README_PATH, content);
+  fs.writeFileSync(readmePath, content);
+  console.log(`README updated with ${repos.length} trending repos.`);
 }
 
-main().catch((err) => {
+main().catch(err => {
   console.error(err);
   process.exit(1);
 });
