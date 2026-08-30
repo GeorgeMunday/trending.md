@@ -7,16 +7,16 @@ Auto-updated daily ranking of trending GitHub repos, via GitHub Actions.
 <!-- trending:start -->
 | Repo | Stars | Language | Description |
 |------|------:|----------|-------------|
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 202,277 | TypeScript | DeepSeek Harness: Everything is a Plugin. |
-| [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | 21,616 | TypeScript | 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。 |
-| [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | 19,095 | Python | A privacy-first app that strips AI watermarks from content you own. |
-| [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | 19,091 | Rust | Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in R |
-| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 13,420 | Python | A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表 |
-| [trycompai/crm](https://github.com/trycompai/crm) | 9,069 | TypeScript | Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM. |
-| [pathwaycom/arc-task-gen](https://github.com/pathwaycom/arc-task-gen) | 8,557 | Python | Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set. |
-| [MiniMax-AI/MiniMax-H3](https://github.com/MiniMax-AI/MiniMax-H3) | 7,342 | Python |  |
-| [yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) | 6,932 | JavaScript | dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the tas |
-| [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | 6,686 | C | A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 203,488 | TypeScript | DeepSeek Harness: Everything is a Plugin. |
+| [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | 21,860 | TypeScript | 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。 |
+| [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | 19,256 | Python | A privacy-first app that strips AI watermarks from content you own. |
+| [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | 19,206 | Rust | Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in R |
+| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 13,547 | Python | A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表 |
+| [trycompai/crm](https://github.com/trycompai/crm) | 9,104 | TypeScript | Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM. |
+| [pathwaycom/arc-task-gen](https://github.com/pathwaycom/arc-task-gen) | 8,819 | Python | Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set. |
+| [yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) | 6,949 | JavaScript | dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the tas |
+| [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | 6,724 | C | A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: |
+| [zhu1090093659/dsh-web](https://github.com/zhu1090093659/dsh-web) | 6,457 | TypeScript | DeepSeek Harness（DSH）Web 插件聚合生态包 · 一切皆插件，创意工坊分发 |
 <!-- trending:end -->
 
 ## Most Starred Repositories
@@ -24,16 +24,16 @@ Auto-updated daily ranking of trending GitHub repos, via GitHub Actions.
 <!--stared:start-->
 | Repo | Stars | Language | Description |
 |------|------:|----------|-------------|
-| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 543,738 | Markdown | Master programming by recreating your favorite technologies from scratch. |
-| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 500,891 | — | 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 472,423 | Python | A collective list of free APIs |
-| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 454,756 | TypeScript | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer scienc |
-| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 395,483 | Python | :books: Freely available programming books |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 387,949 | TypeScript | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞  |
-| [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 366,603 | Python | Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashc |
-| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 365,794 | TypeScript | Interactive roadmaps, guides and other educational content to help developers grow in their careers. |
-| [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | 359,924 | — | A complete computer science study plan to become a software engineer. |
-| [vinta/awesome-python](https://github.com/vinta/awesome-python) | 316,807 | Python | The definitive list that answers "I want to do X in Python, which tool should I use?" |
+| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 543,922 | Markdown | Master programming by recreating your favorite technologies from scratch. |
+| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 501,176 | — | 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 472,826 | Python | A collective list of free APIs |
+| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 454,712 | TypeScript | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer scienc |
+| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 395,548 | Python | :books: Freely available programming books |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 388,019 | TypeScript | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞  |
+| [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 366,753 | Python | Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashc |
+| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 365,853 | TypeScript | Interactive roadmaps, guides and other educational content to help developers grow in their careers. |
+| [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | 359,976 | — | A complete computer science study plan to become a software engineer. |
+| [vinta/awesome-python](https://github.com/vinta/awesome-python) | 317,030 | Python | The definitive list that answers "I want to do X in Python, which tool should I use?" |
 <!--stared:end-->
 
 ## Most Forked Repositories
@@ -46,13 +46,13 @@ Auto-updated daily ranking of trending GitHub repos, via GitHub Actions.
 | Repo | Stars | Language | Description |
 |------|------:|----------|-------------|
 | [jtleek/datasharing](https://github.com/jtleek/datasharing) | 6,750 | — | The Leek group guide to data sharing  |
-| [octocat/Spoon-Knife](https://github.com/octocat/Spoon-Knife) | 13,997 | HTML | This repo is for demonstration purposes only. |
-| [rdpeng/ProgrammingAssignment2](https://github.com/rdpeng/ProgrammingAssignment2) | 889 | R | Repository for Programming Assignment 2 for R Programming on Coursera |
-| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 195,139 | Rust | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintaine |
-| [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) | 55,728 | — | 🚀✨ Help beginners to contribute to open source projects |
+| [octocat/Spoon-Knife](https://github.com/octocat/Spoon-Knife) | 13,999 | HTML | This repo is for demonstration purposes only. |
+| [rdpeng/ProgrammingAssignment2](https://github.com/rdpeng/ProgrammingAssignment2) | 890 | R | Repository for Programming Assignment 2 for R Programming on Coursera |
+| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 195,148 | Rust | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintaine |
+| [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) | 55,738 | — | 🚀✨ Help beginners to contribute to open source projects |
 | [TheOdinProject/css-exercises](https://github.com/TheOdinProject/css-exercises) | 2,698 | HTML |  |
 | [Pierian-Data/Complete-Python-3-Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp) | 29,741 | Jupyter Notebook | Course Files for Complete Python 3 Bootcamp Course on Udemy |
 | [SmartThingsCommunity/SmartThingsPublic](https://github.com/SmartThingsCommunity/SmartThingsPublic) | 2,655 | Groovy | SmartThings open-source DeviceType Handlers and SmartApps code |
-| [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | 359,924 | — | A complete computer science study plan to become a software engineer. |
-| [github/gitignore](https://github.com/github/gitignore) | 175,488 | — | A collection of useful .gitignore templates |
+| [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | 359,976 | — | A complete computer science study plan to become a software engineer. |
+| [github/gitignore](https://github.com/github/gitignore) | 175,502 | — | A collection of useful .gitignore templates |
 <!--forked:end-->
