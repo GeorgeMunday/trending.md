@@ -7,16 +7,16 @@ Auto-updated daily ranking of trending GitHub repos, via GitHub Actions.
 <!-- trending:start -->
 | Repo | Stars | Language | Description |
 |------|------:|----------|-------------|
-| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 44,249 | Rust | Craft Anything: understand how any software works, and craft your own. |
-| [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype) | 24,694 | TypeScript | Towards a More Autonomous Agent System |
-| [heydamir/unslop](https://github.com/heydamir/unslop) | 22,291 | JavaScript | A Claude skill that turns vibecoded, AI-looking UI into a designed interface |
-| [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) | 18,623 | Rust | misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in |
-| [libracoder/kiri](https://github.com/libracoder/kiri) | 13,884 | Rust | A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative |
-| [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video) | 13,751 | Python | Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Break |
-| [Marvisak/VIctory](https://github.com/Marvisak/VIctory) | 13,479 | Rust | An attempt at running GTA VI on PC |
-| [Minireel/HGhub](https://github.com/Minireel/HGhub) | 12,120 | Rust | Plug-in media player |
-| [janestreet/agent_skills](https://github.com/janestreet/agent_skills) | 11,974 | — | Agent skills |
-| [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | 10,358 | Rust | Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with Typ |
+| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 44,800 | Rust | Craft Anything: understand how any software works, and craft your own. |
+| [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype) | 24,752 | TypeScript | Towards a More Autonomous Agent System |
+| [heydamir/unslop](https://github.com/heydamir/unslop) | 22,705 | JavaScript | A Claude skill that turns vibecoded, AI-looking UI into a designed interface |
+| [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) | 19,024 | Rust | misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in |
+| [libracoder/kiri](https://github.com/libracoder/kiri) | 14,069 | Rust | A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative |
+| [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video) | 14,038 | Python | Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Break |
+| [Marvisak/VIctory](https://github.com/Marvisak/VIctory) | 13,864 | Rust | An attempt at running GTA VI on PC |
+| [Minireel/HGhub](https://github.com/Minireel/HGhub) | 12,266 | Rust | Plug-in media player |
+| [janestreet/agent_skills](https://github.com/janestreet/agent_skills) | 12,082 | — | Agent skills |
+| [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | 10,861 | Rust | Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with Typ |
 <!-- trending:end -->
 
 ## Most Starred Repositories
@@ -24,16 +24,16 @@ Auto-updated daily ranking of trending GitHub repos, via GitHub Actions.
 <!--stared:start-->
 | Repo | Stars | Language | Description |
 |------|------:|----------|-------------|
-| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 565,818 | Markdown | Master programming by recreating your favorite technologies from scratch. |
-| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 543,554 | — | 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 501,697 | Python | A collective list of free APIs |
-| [morluto/rea](https://github.com/morluto/rea) | 480,081 | TypeScript | Reverse engineer anything with agents, from app behavior down to native binaries. |
-| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 459,685 | TypeScript | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer scienc |
-| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 402,349 | Python | :books: Freely available programming books |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 395,322 | TypeScript | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞  |
-| [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 379,401 | Python | Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashc |
-| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 372,852 | TypeScript | Interactive roadmaps, guides and other educational content to help developers grow in their careers. |
-| [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | 365,115 | — | A complete computer science study plan to become a software engineer. |
+| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 566,030 | Markdown | Master programming by recreating your favorite technologies from scratch. |
+| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 544,035 | — | 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 501,847 | Python | A collective list of free APIs |
+| [morluto/rea](https://github.com/morluto/rea) | 481,328 | TypeScript | Reverse engineer anything with agents, from app behavior down to native binaries. |
+| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 459,686 | TypeScript | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer scienc |
+| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 402,381 | Python | :books: Freely available programming books |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 395,364 | TypeScript | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞  |
+| [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 379,521 | Python | Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashc |
+| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 372,912 | TypeScript | Interactive roadmaps, guides and other educational content to help developers grow in their careers. |
+| [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | 365,144 | — | A complete computer science study plan to become a software engineer. |
 <!--stared:end-->
 
 ## Most Forked Repositories
@@ -46,13 +46,13 @@ Auto-updated daily ranking of trending GitHub repos, via GitHub Actions.
 | Repo | Stars | Language | Description |
 |------|------:|----------|-------------|
 | [jtleek/datasharing](https://github.com/jtleek/datasharing) | 6,803 | — | The Leek group guide to data sharing  |
-| [octocat/Spoon-Knife](https://github.com/octocat/Spoon-Knife) | 14,244 | HTML | This repo is for demonstration purposes only. |
+| [octocat/Spoon-Knife](https://github.com/octocat/Spoon-Knife) | 14,249 | HTML | This repo is for demonstration purposes only. |
 | [rdpeng/ProgrammingAssignment2](https://github.com/rdpeng/ProgrammingAssignment2) | 897 | R | Repository for Programming Assignment 2 for R Programming on Coursera |
-| [morluto/rea](https://github.com/morluto/rea) | 480,081 | TypeScript | Reverse engineer anything with agents, from app behavior down to native binaries. |
-| [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) | 57,005 | — | 🚀✨ Help beginners to contribute to open source projects |
-| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 194,720 | Rust | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintaine |
-| [TheOdinProject/css-exercises](https://github.com/TheOdinProject/css-exercises) | 2,747 | HTML |  |
-| [Pierian-Data/Complete-Python-3-Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp) | 29,847 | Jupyter Notebook | Course Files for Complete Python 3 Bootcamp Course on Udemy |
+| [morluto/rea](https://github.com/morluto/rea) | 481,328 | TypeScript | Reverse engineer anything with agents, from app behavior down to native binaries. |
+| [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) | 57,020 | — | 🚀✨ Help beginners to contribute to open source projects |
+| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 194,705 | Rust | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintaine |
+| [TheOdinProject/css-exercises](https://github.com/TheOdinProject/css-exercises) | 2,748 | HTML |  |
+| [Pierian-Data/Complete-Python-3-Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp) | 29,848 | Jupyter Notebook | Course Files for Complete Python 3 Bootcamp Course on Udemy |
 | [SmartThingsCommunity/SmartThingsPublic](https://github.com/SmartThingsCommunity/SmartThingsPublic) | 2,673 | Groovy | SmartThings open-source DeviceType Handlers and SmartApps code |
-| [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | 365,115 | — | A complete computer science study plan to become a software engineer. |
+| [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | 365,144 | — | A complete computer science study plan to become a software engineer. |
 <!--forked:end-->
